@@ -1,0 +1,45 @@
+h1,
+h1 + p {
+  font-family: Trebuchet MS;
+  font-size: 2.5em;
+  color: brown;
+  text-align: center;
+}
+img {
+  float: right;
+  border: 1px solid black;
+  box-shadow: 2px 2px 2px black;
+}
+
+body {
+  background-image: url("img/tapisserie.jpg");
+}
+
+h2 {
+  color: green;
+}
+
+section {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+  margin-right: 2%;
+}
+
+#liseret,
+#contenu {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#liseret {
+  width: 10%;
+  margin-right: 3%;
+  height: 500px;
+  background-image: url("img/lodyas.png");
+  border-radius: 10px;
+}
+
+#contenu {
+  width: 85%;
+}
